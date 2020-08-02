@@ -16,7 +16,8 @@ Banco Azteca, S.A.
 Sucrusal: 050
 ===========================================================
 ```
-**Litado de bancos**
+**Listado de bancos**
+
 La libreria te proporciona el listado de bancos registrado por la  Asociación de Bancos de México - ABM a traves de un metodos estatico de la clase Banco.cs
 ```
 Banco.Listado();
