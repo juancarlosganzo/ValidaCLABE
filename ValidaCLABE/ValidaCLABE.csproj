@@ -1,7 +1,27 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	  <TargetFrameworks>netstandard2.0;net40;net45;netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+	  <ApplicationIcon />
+	  <OutputType>Library</OutputType>
+	  <StartupObject />
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <Authors>Juan Carlos Iván Ganzo Domínguez</Authors>
+	  <Company>Soluciones Equilibrium</Company>
+	  <Product>ValidaCLABE</Product>
+	  <Description>Librería que realiza la validación de una Clave Bancaria Estandarizada (CLABE)</Description>
+	  <Copyright>Juan Carlos Iván Ganzo Domínguez</Copyright>	  
+	  <PackageTags>CLABE Clave Bancaria Estandarizada </PackageTags>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
+	  <FileVersion>1.0.0.1</FileVersion>
+	  <Version>1.0.0.0</Version>
+	  <PackageProjectUrl>https://github.com/juancarlosganzo/ValidaCLABE/blob/master/README.md</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/juancarlosganzo/ValidaCLABE</RepositoryUrl>
+	  <RepositoryType>GitHub</RepositoryType>
+	  <UserSecretsId>567ecee1-6d8a-4fc3-97c2-7397ebda2bf4</UserSecretsId>
+	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	  
   </PropertyGroup>
 
 </Project>

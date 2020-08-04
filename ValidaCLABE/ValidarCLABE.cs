@@ -17,11 +17,13 @@ namespace ValidaCLABE
             {
                 validacionResult.Valido = false;
                 validacionResult.ValidacionMensaje = "Valor en blanco";
+                return validacionResult;
             }
             if (CLABE.Length != 18)
             {
                 validacionResult.Valido = false;
                 validacionResult.ValidacionMensaje = "El tamaño de la CLABE debe ser de 18 digitos";
+                return validacionResult;
             }
 
             Regex regex = new Regex("[0-9]");
@@ -30,6 +32,7 @@ namespace ValidaCLABE
             {
                 validacionResult.Valido = false;
                 validacionResult.ValidacionMensaje = "La CLABE solo admite digitos.";
+                return validacionResult;
             }
 
             string claveBanco = CLABE.Substring(0, 3);
@@ -51,6 +54,7 @@ namespace ValidaCLABE
             {
                 validacionResult.Valido = false;
                 validacionResult.ValidacionMensaje = "Digito verificador invalido.";
+                return validacionResult;
 
             }
             else {
