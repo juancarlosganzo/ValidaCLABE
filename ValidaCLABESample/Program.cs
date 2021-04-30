@@ -7,7 +7,7 @@ namespace ValidaCLABESample
     {
         static void Main(string[] args)
         {
-            string CLABETest = "127050002860553945";
+            string CLABETest = "014282567737545392";
             ValidacionResult result = ValidarCLABE.Validar(CLABETest);
 
             Console.WriteLine("===========================================================");

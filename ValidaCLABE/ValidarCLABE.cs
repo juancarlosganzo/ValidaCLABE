@@ -48,7 +48,9 @@ namespace ValidaCLABE
                 sumaFactores = sumaFactores + producto;
             }
 
-            string digitoVerificador = (10 - (sumaFactores % 10)).ToString();            
+            string digitoVerificador = (10 - (sumaFactores % 10)).ToString();
+            if (digitoVerificador.Length > 1)
+                digitoVerificador = digitoVerificador.Substring(1, 1);
 
             if (!CLABE.Substring(17, 1).Equals(digitoVerificador))
             {
